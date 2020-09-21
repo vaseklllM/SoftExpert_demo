@@ -1,0 +1,144 @@
+.sliderContent {
+    display: flex;
+    align-items: flex-end;
+
+    &-userName {
+        margin-bottom: 10px;
+        display: block;
+        color: white;
+        font-family: sfMedium;
+        font-size: 16px;
+    }
+
+    &-imeges {
+
+        position: relative;
+        width: 270px;
+        height: 300px;
+        overflow: hidden;
+
+        div {
+            width: inherit;
+            height: inherit;
+            position: absolute;
+            overflow: hidden;
+            left: 0;
+            transition: transform 0.4s, width 0.4s ease-in-out;
+
+            img {
+                width: 270px;
+                height: 300px;
+                transition: filter 0.3s, transform 0.4s ease-in-out;
+                filter: grayscale(20%) saturate(90%);
+
+                &:hover {
+                    filter: grayscale(0%) saturate(120%);
+                }
+            }
+
+            &:nth-child(2) {
+                transform: translateX(0%);
+
+                img {
+                    transform: translateX(0%);
+                }
+            }
+        }
+    }
+
+    &-skill {
+        margin-left: 45px;
+
+        &-titleBlock {
+            &_title {
+                color: white;
+                font-size: 24px;
+                font-family: sfBold;
+                z-index: 1;
+                position: relative;
+                margin-left: 10px;
+                letter-spacing: 2px;
+            }
+
+            &_box {
+                border: 2px solid rgba(103, 98, 28, 0.6);
+                width: 65px;
+                height: 23px;
+                position: relative;
+                top: -19px;
+                z-index: 0;
+            }
+        }
+
+        &-wraper {
+            display: flex;
+            justify-content: space-between;
+
+            &-list {
+                ul {
+                    margin: 0;
+                    padding-left: 0;
+                    list-style: none;
+
+                    li {
+                        width: 300px;
+                        margin-top: 20px;
+                        transition: transform 0.1s ease;
+
+                        &:first-child {
+                            margin-top: 0;
+                        }
+
+                        &:hover {
+                            transform: scale(1.04);
+                        }
+                    }
+                }
+            }
+
+            &-line {
+                width: 1px;
+                height: 210px;
+                background-color: white;
+                margin: auto 25px;
+            }
+        }
+    }
+}
+
+.liSkillBlock {
+    &-skillBlock {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        &-name {
+            color: white;
+            font-family: sfMedium;
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+
+        &-level {
+            color: white;
+            font-family: sfMedium;
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+    }
+
+    &-levelLoad {
+        margin-top: 10px;
+        height: 7px;
+        border-radius: 5px;
+        background-color: #535353;
+        overflow: hidden;
+
+        &-load {
+            transition: width 0.8s ease-in-out;
+            background-color: white;
+            height: 100%;
+            border-radius: 5px;
+        }
+    }
+}

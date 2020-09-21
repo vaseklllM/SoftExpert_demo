@@ -1,0 +1,91 @@
+.sliderBlock {
+    user-select: none;
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    align-items: center;
+    position: relative;
+
+    &-buttonLeftArrow {
+        border: none;
+        margin: 0;
+        padding: 0;
+        background: none;
+        outline: none;
+        transition: transform 0.1s, opacity 0.1s ease;
+        opacity: 0.5;
+
+        &:hover {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+    }
+
+    &-buttonRightArrow {
+        border: none;
+        margin: 0;
+        padding: 0;
+        background: none;
+        outline: none;
+        transition: transform 0.1s, opacity 0.1s ease;
+        opacity: 0.5;
+
+        &:hover {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+    }
+
+    &-balls {
+        position: absolute;
+        left: 50%;
+        bottom: -100px;
+        transform: translateX(-50%);
+        padding: 0px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+
+        li {
+            width: 5px;
+            height: 5px;
+            background-color: #888888;
+            border-radius: 10px;
+            margin-left: 20px;
+            position: relative;
+            z-index: 1;
+            transition: transform 0.1s, background-color 0.1s ease-in-out;
+            cursor: pointer;
+
+            &:hover {
+                transform: scale(1.5);
+                background-color: #E7E7E7;
+            }
+
+            &:first-child {
+                transition: left 0.2s ease-in-out;
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                background-color: white;
+                margin-left: 0px;
+                z-index: 2;
+                cursor: auto;
+
+                &:hover {
+                    transform: scale(1);
+                }
+            }
+
+            &:nth-child(2) {
+                margin-left: 3px;
+            }
+
+            &:last-child {
+                margin-right: 3px;
+            }
+        }
+    }
+}
