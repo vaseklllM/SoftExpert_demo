@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6b86fa3c.chunk.css",
+    "main.js": "/static/js/main.c43eb6db.chunk.js",
+    "main.js.map": "/static/js/main.c43eb6db.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.07fef593.chunk.js": "/static/js/2.07fef593.chunk.js",
+    "static/js/2.07fef593.chunk.js.map": "/static/js/2.07fef593.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1d8cfed1af6c1d39c671fa3fffa5a8e2.js": "/precache-manifest.1d8cfed1af6c1d39c671fa3fffa5a8e2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6b86fa3c.chunk.css.map": "/static/css/main.6b86fa3c.chunk.css.map",
+    "static/media/Active.svg": "/static/media/Active.33ba73f7.svg",
+    "static/media/AlexeyFadeev.jpg": "/static/media/AlexeyFadeev.01cf50fd.jpg",
+    "static/media/AnnaEfrimova.jpg": "/static/media/AnnaEfrimova.c78f719e.jpg",
+    "static/media/MagneticHolder.jpg": "/static/media/MagneticHolder.fa814dd1.jpg",
+    "static/media/RomanProkopenko.jpg": "/static/media/RomanProkopenko.14717f74.jpg",
+    "static/media/fonst.scss": "/static/media/SFUIText-Semibold.70ccfb41.woff",
+    "static/media/VadimLeontiev.jpg": "/static/media/VadimLeontiev.ce668a51.jpg",
+    "static/media/VadimLudchak.jpg": "/static/media/VadimLudchak.7ac47cb8.jpg",
+    "static/media/antekovac.jpg": "/static/media/antekovac.f140cbc9.jpg",
+    "static/media/style.scss": "/static/media/backLion.0eb47779.jpg",
+    "static/media/dontActive.svg": "/static/media/dontActive.53b4c218.svg",
+    "static/media/left.a0905d6e.svg": "/static/media/left.a0905d6e.svg",
+    "static/media/next.jpg": "/static/media/next.e542578c.jpg",
+    "static/media/right.5243bec4.svg": "/static/media/right.5243bec4.svg",
+    "static/media/rusmatreshka.jpg": "/static/media/rusmatreshka.84d73961.jpg",
+    "static/media/upnails.jpg": "/static/media/upnails.b55d971c.jpg",
+    "static/media/vantuz.jpg": "/static/media/vantuz.4d43fc4b.jpg",
+    "static/media/vasek.jpg": "/static/media/vasek.b4d9f21f.jpg"
+  }
+}
